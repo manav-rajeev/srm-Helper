@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRM Campus Helper</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/images/final-image.jpg">
+</head>
+<body>
+  <header>
+    <h1>SRM Campus Helper</h1>
+    <img src="/images/SRM_Institute_of_Science_and_Technology_Logo.svg (1).png" height="100" style="background-color: white;" >
+    
+    <!-- Dark Mode Toggle (CSS-only) -->
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </label>
+  </header>
+  <nav class="navbar">
+      <ul>
+        <li><a href="https://www.srmist.edu.in/srm-hostels/dining-eateries" target="_blank" title="official website">Canteens</a></li>
+        <li><a href="https://www.srmist.edu.in/library" target="_blank" title="official website">Central Library</a></li>
+        <li><a href="https://www.srmist.edu.in/life-at-srm/student-life/clubs" target="_blank" title="official we">Clubs</a></li>
+      </ul>
+    </nav>
+
+  <main>
+    <section id="canteens">
+      <h2>Canteen Menu</h2>
+      <table>
+        <tr><th>Item</th><th>Price</th></tr>
+        <tr><td>Dosa</td><td>₹30</td></tr>
+        <tr><td>Chowmein</td><td>₹50</td></tr>
+        <tr><td>Paratha</td><td>₹40</td></tr>
+      </table>
+    </section>
+
+    <section id="libraries">
+      <h2>Libraries</h2>
+      <p>Central Library, Digital Library, Hostel Study Rooms.</p>
+    </section>
+
+    <section id="clubs">
+      <h2>Clubs</h2>
+      <ul>
+        <li>GFG SRM</li>
+        <li>Robotics Club</li>
+        <li>Music Club</li>
+        <li>Centinals</li>
+        <li>Many more</li>
+      </ul>
+    </section>
+
+    <section id="map">
+      <h2>Interactive Guide</h2>
+      <div class="cards">
+        <a href="https://www.srmist.edu.in/life-at-srm/facilities-and-operations/building-details" target="_blank" title=" building-details"> <div class="card">Tech Park</div></a>
+        <a href="https://www.srmist.edu.in/srm-hostels" target="_blank" title="srm-hostels"><div class="card">Hostel</div></a>
+        <a href="https://www.srmist.edu.in/srm-hostels/dining-eateries" target="_blank" title="canteens ans eateries"><div class="card">Canteen</div></a>
+      </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section id="countdown">
+      <h2>Next Big Event 🎉</h2>
+      <p id="timer">Loading...</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
